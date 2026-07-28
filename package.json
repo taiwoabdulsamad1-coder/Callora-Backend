@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "build": "tsc",
+    "build": "node api.js && tsc",
     "prebuild": "npm run error-codes:check",
-    "start": "node dist/index.js",
-    "dev": "tsx watch src/index.ts",
+    "start": "node api.js && node dist/index.js",
+    "dev": "node api.js && tsx watch src/index.ts",
     "lint": "eslint .",
     "db:generate": "drizzle-kit generate:sqlite",
     "db:migrate": "drizzle-kit migrate",
