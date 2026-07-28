@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "main",
+    "origin",
+    "task/admin-schema-stability",
+    "task/export-security-headers",
+    "task/rate-limit-openapi-examples"
+  ],
+  "parent": {
+    "main": null,
+    "origin": "main",
+    "task/admin-schema-stability": "main",
+    "task/export-security-headers": "main",
+    "task/rate-limit-openapi-examples": "main"
+  },
+  "order": [
+    "main",
+    "origin",
+    "task/admin-schema-stability",
+    "task/export-security-headers",
+    "task/rate-limit-openapi-examples"
+  ]
+}
